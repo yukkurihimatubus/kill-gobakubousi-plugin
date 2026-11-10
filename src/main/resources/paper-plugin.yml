@@ -1,5 +1,14 @@
-name: ItemKillCommand #サーバー内(/pluginsなど)で目にする名前
-version: "${version}" #バージョン指定
-main: com.yukkurihimatubus.ItemKillCommand.Main #プラグイン読み込みにに実行するクラス
-api-version: '26.2' #APIバージョン指定
-folia-supported: true #Foliaをサポートしてるよ
+name: ItemKillCommand-Reloaded
+version: "${version}"
+main: me.stone_block9965.itemkillreloaded.ItemKillCommandReloaded
+api-version: "26.3"
+folia-supported: true
+author: stone_block9965
+contributors:
+  - "yukkurihimatubus (original: kill Gobakubousi plugin)"
+  - "1510ty (original helper)"
+description: "/itemkill で全ワールドの落ちているアイテムを削除します (Folia 完全対応)。"
+permissions:
+  itemkill.use:
+    description: "/itemkill コマンドの使用権限"
+    default: op
